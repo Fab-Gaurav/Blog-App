@@ -16,7 +16,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light my_nav fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">My Blog</a>
+            <a class="navbar-brand" href="index.html">My Blog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,14 +24,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>                    
+                        <a class="nav-link" href="recent_post.html">Recent Post <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="archives.html">Archives <span class="sr-only"></span></a>
+                    </li>                   
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <div class="input-group">
                         <input type="search" class="form-control form-control-sm" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                          <button class="btn btn-success" type="submit"><i class="fa fa search"></i></button>
+                          <a class="btn btn-success" href="search.html" type="submit"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </form>
@@ -52,7 +55,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor id aliquam excepturi, blanditiis error totam sint enim eaque officiis doloremque necessitatibus, repudiandae veritatis quia dolores nulla consectetur sunt iusto voluptate!</p>
                     </div>
                     <div class="subscribe-holder">
-                        <a href="#" data-toggle="modal" data-target="#subscribe_modal" class="btn btn-info">Subscribe for Latest Updates</a>
+                        <a href="newsletter.html" class="btn btn-info">Subscribe for Latest Updates</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +75,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +85,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +95,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +105,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +115,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +125,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +135,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +145,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Blog Post Title</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, alias.</p>
-                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                            <a href="page.html" class="btn btn-sm btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -165,35 +168,8 @@
             </div>
         </div>
     </footer>
-
+    
     <!-- Footer -->
-
-    <!-- Subscribe-Modal -->
-
-    <div class="modal fade" id="subscribe_modal" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Subscribe for Newsletters</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <input type="text" class="form-control form-control-sm" placeholder="Your Email-ID">
-                    </div>
-                    <div class="mb-3">
-                        <input type="submit" class="btn btn-success btn-sm btn-block" value="Subscribe Now">
-                    </div>
-                </form>
-            </div>
-        </div>
-        </div>
-    </div>
-
-    <!-- Subscribe-Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
