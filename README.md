@@ -1,4 +1,4 @@
-# EMS-App
+# Blog-App
 
 I created a Blog App using HTML, CSS, Boothstrap
 
